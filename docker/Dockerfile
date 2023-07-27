@@ -85,7 +85,7 @@ RUN chmod -R +x Viper-preprocess
 ######################################### Viper Preprocess2 directory
 WORKDIR Viper-preprocess2
 
-RUN git clone --depth 1 https://github.com/smaurice101/transactionalmachinelearning.git
+RUN git clone --depth 1 https://github.com/126558196-myseneca/transactionalmachinelearning.git
 RUN echo "*******************Viper for $CHIP PREPROCESS2**********************"
 
 RUN if [ "$CHIP" = "ARM32" ] ; \
