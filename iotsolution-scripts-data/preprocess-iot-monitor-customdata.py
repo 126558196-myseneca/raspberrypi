@@ -57,8 +57,8 @@ if VIPERHOST=="":
 # Set personal data
 def datasetup(maintopic,preprocesstopic):
      companyname="OTICS"
-     myname="Sebastian"
-     myemail="Sebastian.Maurice"
+     myname="Edward"
+     myemail="Edward.Liu"
      mylocation="Toronto"
 
      # Replication factor for Kafka redundancy
