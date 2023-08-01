@@ -191,7 +191,8 @@ while True:
   #line = line[:-2]
   jsonline = json.loads(line)
   try:
-    lat,long,ident=getlatlong(reader,jsonline['metadata']['dsn'],'dsn')
+     lat,long,ident=getlatlong2(reader) 
+    #lat,long,ident=getlatlong(reader,jsonline['metadata']['dsn'],'dsn')
     line = line[:-2] + "," + '"lat":' + lat + ',"long":'+long + ',"identifier":"' + ident + '"}'
     if not line:
         #break
